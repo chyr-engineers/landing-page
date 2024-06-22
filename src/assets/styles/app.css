@@ -1,0 +1,15 @@
+.main-content {
+  @apply pt-16;
+}
+
+section {
+  @apply p-8;
+}
+
+.section-title {
+  @apply text-3xl font-bold;
+}
+
+.section-content {
+  @apply mt-4;
+}

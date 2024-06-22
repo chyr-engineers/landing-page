@@ -1,0 +1,69 @@
+.header {
+  @apply bg-gray-800 text-white p-4 fixed w-full top-0 z-50;
+}
+
+.nav-container {
+  @apply flex items-center justify-between max-w-screen-xl mx-auto px-4;
+}
+
+.logo {
+  height: 40px; /* Adjust the height as needed */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+  transition: all 0.3s ease;
+}
+
+.open.line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open.line2 {
+  opacity: 0;
+}
+
+.open.line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.nav-list {
+  @apply flex space-x-4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  @apply cursor-pointer hover:text-gray-400;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-list {
+    @apply flex-col items-center bg-gray-800 absolute top-14 left-0 right-0 w-full;
+    display: none;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .nav-item {
+    @apply text-lg;
+    margin: 10px 0;
+  }
+}
