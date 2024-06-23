@@ -1,5 +1,5 @@
 .header {
-  @apply bg-gray-800 text-white p-4 fixed w-full top-0 z-50;
+  @apply bg-primary text-secondary p-4 fixed w-full top-0 z-50; /* Updated to primary background and secondary text colors */
 }
 
 .nav-container {
@@ -20,7 +20,7 @@
 .line {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: var(--secondary); /* Set line color to secondary color */
   margin: 4px;
   transition: all 0.3s ease;
 }
@@ -45,7 +45,7 @@
 }
 
 .nav-item {
-  @apply cursor-pointer hover:text-gray-400;
+  @apply cursor-pointer hover:text-accent; /* Updated hover color to accent */
 }
 
 @media (max-width: 768px) {
@@ -54,7 +54,7 @@
   }
 
   .nav-list {
-    @apply flex-col items-center bg-gray-800 absolute top-14 left-0 right-0 w-full;
+    @apply flex-col items-center bg-primary absolute top-14 left-0 right-0 w-full; /* Updated background color */
     display: none;
   }
 

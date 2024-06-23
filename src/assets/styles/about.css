@@ -1,18 +1,21 @@
-.about {
-  padding: 50px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.about-container {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8 p-10;
 }
 
-.about h2 {
-  @apply text-3xl font-bold;
-  margin-bottom: 20px;
+.card {
+  @apply bg-white shadow-lg rounded-lg p-6;
 }
 
-.about p {
-  @apply mt-4 text-lg leading-relaxed;
-  max-width: 800px; /* Adjust the width as needed */
-  text-align: justify; /* Justifies the text */
+.card-icon {
+  width: 50px; /* Set a specific width for the icons */
+  height: 50px; /* Set a specific height for the icons */
+  @apply mb-4;
+}
+
+.card-title {
+  @apply text-2xl font-bold mb-2;
+}
+
+.card-content {
+  @apply text-lg leading-relaxed;
 }

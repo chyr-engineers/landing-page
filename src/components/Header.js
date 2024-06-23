@@ -1,4 +1,3 @@
-// src/components/Header.js
 import React, { useState } from 'react';
 import '../assets/styles/header.css';
 import logo from '../assets/images/logo.png';

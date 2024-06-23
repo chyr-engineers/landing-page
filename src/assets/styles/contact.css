@@ -1,28 +1,48 @@
 .contact {
   padding: 50px 0;
   text-align: center;
+  background-color: #f9fafb;
 }
 
 .contact h2 {
-  @apply text-3xl font-bold;
-  margin-bottom: 20px;
+  @apply text-3xl font-bold mb-6;
+  color: #1a202c;
 }
 
 .contact-info {
   @apply text-lg leading-relaxed;
   max-width: 600px;
   margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info p {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .contact-info a {
   color: #1a202c;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-icon {
+  width: 24px; /* Set icon size */
+  height: 24px; /* Set icon size */
+  vertical-align: middle; /* Align with text */
+  margin-right: 8px;
 }
