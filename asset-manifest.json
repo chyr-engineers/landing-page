@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.1cfde9fd.css",
-    "main.js": "/landing-page/static/js/main.4ff3cd0d.js",
+    "main.css": "/landing-page/static/css/main.026d95c1.css",
+    "main.js": "/landing-page/static/js/main.8aa5fc04.js",
     "static/media/logo.png": "/landing-page/static/media/logo.c057a4194231339a291e.png",
+    "static/media/partnership.svg": "/landing-page/static/media/partnership.5540a10fda6236e5f7aab0d4167df45d.svg",
     "index.html": "/landing-page/index.html",
-    "main.1cfde9fd.css.map": "/landing-page/static/css/main.1cfde9fd.css.map",
-    "main.4ff3cd0d.js.map": "/landing-page/static/js/main.4ff3cd0d.js.map"
+    "static/media/innovation.svg": "/landing-page/static/media/innovation.1c54aaccd2cd3efc61d8d9266a3aea50.svg",
+    "static/media/phone.svg": "/landing-page/static/media/phone.0f666c294e9c39ea395961e0bcf2347a.svg",
+    "static/media/integrity.svg": "/landing-page/static/media/integrity.5269ab03535fb19547d0370675ca9369.svg",
+    "static/media/email.svg": "/landing-page/static/media/email.1df275d05b81ae5f6f31c7b2e75edcdf.svg",
+    "static/media/expertise.svg": "/landing-page/static/media/expertise.7b6f816dcfc67238d129d5c9d435d213.svg",
+    "main.026d95c1.css.map": "/landing-page/static/css/main.026d95c1.css.map",
+    "main.8aa5fc04.js.map": "/landing-page/static/js/main.8aa5fc04.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfde9fd.css",
-    "static/js/main.4ff3cd0d.js"
+    "static/css/main.026d95c1.css",
+    "static/js/main.8aa5fc04.js"
   ]
 }
