@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.026d95c1.css",
-    "main.js": "/landing-page/static/js/main.8aa5fc04.js",
-    "static/media/logo.png": "/landing-page/static/media/logo.c057a4194231339a291e.png",
+    "main.css": "/landing-page/static/css/main.fd472f8f.css",
+    "main.js": "/landing-page/static/js/main.427b71bb.js",
+    "static/media/logo.png": "/landing-page/static/media/logo.2302deb2aa3570478877.png",
     "static/media/partnership.svg": "/landing-page/static/media/partnership.5540a10fda6236e5f7aab0d4167df45d.svg",
     "index.html": "/landing-page/index.html",
     "static/media/innovation.svg": "/landing-page/static/media/innovation.1c54aaccd2cd3efc61d8d9266a3aea50.svg",
@@ -10,11 +10,11 @@
     "static/media/integrity.svg": "/landing-page/static/media/integrity.5269ab03535fb19547d0370675ca9369.svg",
     "static/media/email.svg": "/landing-page/static/media/email.1df275d05b81ae5f6f31c7b2e75edcdf.svg",
     "static/media/expertise.svg": "/landing-page/static/media/expertise.7b6f816dcfc67238d129d5c9d435d213.svg",
-    "main.026d95c1.css.map": "/landing-page/static/css/main.026d95c1.css.map",
-    "main.8aa5fc04.js.map": "/landing-page/static/js/main.8aa5fc04.js.map"
+    "main.fd472f8f.css.map": "/landing-page/static/css/main.fd472f8f.css.map",
+    "main.427b71bb.js.map": "/landing-page/static/js/main.427b71bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.026d95c1.css",
-    "static/js/main.8aa5fc04.js"
+    "static/css/main.fd472f8f.css",
+    "static/js/main.427b71bb.js"
   ]
 }
