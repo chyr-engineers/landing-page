@@ -19,11 +19,11 @@ const Header = () => {
       <nav className="nav-container">
         <img src={logo} alt="Logo" className="logo" />
         <div className="hamburger" onClick={toggleMenu}>
-          <div className={isOpen ? "line line1 open" : "line line1"}></div>
-          <div className={isOpen ? "line line2 open" : "line line2"}></div>
-          <div className={isOpen ? "line line3 open" : "line line3"}></div>
+          <div className={`line line1 ${isOpen ? "open" : ""}`}></div>
+          <div className={`line line2 ${isOpen ? "open" : ""}`}></div>
+          <div className={`line line3 ${isOpen ? "open" : ""}`}></div>
         </div>
-        <ul className={isOpen ? "nav-list open" : "nav-list"}>
+        <ul className={`nav-list ${isOpen ? "open" : ""}`}>
           <li className="nav-item" onClick={() => scrollToSection('about')}>About</li>
           <li className="nav-item" onClick={() => scrollToSection('services')}>Services</li>
           <li className="nav-item" onClick={() => scrollToSection('testimonials')}>Testimonials</li>

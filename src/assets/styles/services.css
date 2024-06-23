@@ -1,11 +1,12 @@
 .services {
-  padding: 50px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
 .services h2 {
   @apply text-3xl font-bold;
   margin-bottom: 20px;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .services-wrapper {
@@ -38,14 +39,14 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   gap: 20px; /* Add some gap between cards */
-  padding: 0 40px; /* Add some padding to the container */
+  padding: 15px 40px; /* Add some padding to the container */
 }
 
 .service {
   width: 250px; /* Set the width */
   height: 250px; /* Set the height to match the width */
   flex: 0 0 auto;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -59,9 +60,11 @@
 .service h3 {
   @apply text-lg font-semibold; /* Adjust text size for smaller cards */
   margin-bottom: 10px;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .service p {
   @apply text-sm leading-relaxed;
   margin: 0; /* Ensure no extra margin around text */
+  color: #4A5568; /* Dark Gray */
 }

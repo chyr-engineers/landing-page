@@ -1,5 +1,11 @@
 .header {
-  @apply bg-primary text-secondary p-4 fixed w-full top-0 z-50; /* Updated to primary background and secondary text colors */
+  background-color: #FFC107; /* Sunflower */
+  color: #1E3A8A; /* Dark Blue */
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
 }
 
 .nav-container {
@@ -7,12 +13,13 @@
 }
 
 .logo {
-  height: 40px; /* Adjust the height as needed */
+  height: 80px; /* Adjust the height as needed */
   width: auto;  /* Maintain aspect ratio */
+  margin-left: 60px;
 }
 
 .hamburger {
-  display: none;
+  display: none; /* Hide hamburger by default */
   flex-direction: column;
   cursor: pointer;
 }
@@ -20,13 +27,13 @@
 .line {
   width: 25px;
   height: 3px;
-  background-color: var(--secondary); /* Set line color to secondary color */
-  margin: 4px;
+  background-color: #1E3A8A; /* Dark Blue */
+  margin: 4px 0;
   transition: all 0.3s ease;
 }
 
 .open.line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
 .open.line2 {
@@ -34,7 +41,7 @@
 }
 
 .open.line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 .nav-list {
@@ -45,16 +52,23 @@
 }
 
 .nav-item {
-  @apply cursor-pointer hover:text-accent; /* Updated hover color to accent */
+  @apply cursor-pointer hover:text-secondary; /* Dark Blue */
 }
 
 @media (max-width: 768px) {
   .hamburger {
-    display: flex;
+    display: flex; /* Display the hamburger on small screens */
   }
 
   .nav-list {
-    @apply flex-col items-center bg-primary absolute top-14 left-0 right-0 w-full; /* Updated background color */
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFC107; /* Sunflower */
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    width: 100%;
     display: none;
   }
 
@@ -63,7 +77,11 @@
   }
 
   .nav-item {
-    @apply text-lg;
-    margin: 10px 0;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: #1E3A8A; /* Dark Blue */
   }
 }

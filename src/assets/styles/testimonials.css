@@ -6,6 +6,7 @@
 .testimonials h2 {
   @apply text-3xl font-bold;
   margin-bottom: 20px;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .testimonial-container {
@@ -19,7 +20,7 @@
   max-width: 400px;
   margin: 10px;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -28,6 +29,7 @@
 .testimonial h3 {
   @apply text-xl font-semibold;
   margin-bottom: 10px;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .testimonial .location {
@@ -37,4 +39,5 @@
 
 .testimonial p {
   @apply text-sm leading-relaxed;
+  color: #4A5568; /* Dark Gray */
 }

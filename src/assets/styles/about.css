@@ -4,6 +4,9 @@
 
 .card {
   @apply bg-white shadow-lg rounded-lg p-6;
+  width: 100%; /* Full width for small screens */
+  max-width: 500px; /* Ensure it doesn't get too wide on larger screens */
+  margin: 0 auto; /* Center the card */
 }
 
 .card-icon {
@@ -14,8 +17,22 @@
 
 .card-title {
   @apply text-2xl font-bold mb-2;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .card-content {
   @apply text-lg leading-relaxed;
+  color: #4A5568; /* Dark Gray */
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 90%; /* Adjust width for medium screens and above */
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 95%; /* Adjust width for small screens */
+  }
 }

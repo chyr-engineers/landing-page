@@ -1,12 +1,13 @@
 .contact {
   padding: 50px 0;
   text-align: center;
-  background-color: #f9fafb;
+  background-color: #FFC107; /* Sunflower */
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .contact h2 {
   @apply text-3xl font-bold mb-6;
-  color: #1a202c;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .contact-info {
@@ -21,10 +22,11 @@
 
 .contact-info p {
   margin: 10px 0;
+  color: #1E3A8A; /* Dark Blue */
 }
 
 .contact-info a {
-  color: #1a202c;
+  color: #1E3A8A; /* Dark Blue */
   text-decoration: none;
   font-weight: bold;
 }
